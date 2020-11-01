@@ -1,0 +1,65 @@
+.cv {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+}
+
+html, body {
+    font-family: 'Roboto Thin', sans-serif;
+    font-size: 22px;
+}
+
+p, ul, li, address {
+    font-style: normal;
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+ul {
+    line-height: 30px;
+}
+
+li {
+    line-height: 20px;
+}
+
+img {
+    border-radius: 100px;
+}
+#mainInfo {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px 0 10px;
+    padding: 15px 10px 0 10px;
+}
+
+.sectionMain {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+    border-bottom: 2px solid #e9e9e9;
+}
+
+.sectionTitle {
+    float: left;
+    width: 25%;
+}
+
+.sectionContent {
+    float: right;
+    width: 75%;
+
+}
+
+.skills1 {
+    float: left;
+    width: 50%;
+}
+
+.skills2 {
+    float: right;
+    width: 50%;
+}
